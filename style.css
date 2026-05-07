@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    transition: 0.2s ease;
+    --primary--: #0074da;
+    --secondary--: #ff203e;
+    --btncolor--: #003cff96;
+}
+
+body{
+    background: linear-gradient(to bottom, #ecf6ff, #d7e9ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 550;
+    color: var(--primary--);
+}
+
+.span-title{
+    color: var(--secondary--);
+    font-weight: 600;
+}
+
+.descricao{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #444;
+}
+
+button{
+    width: 280px;
+    height: 70px;
+    padding: 16px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+button:hover{
+    transform: translateY(-3px);
+}
+
+.whatsapp{
+    background: #25D366;
+}
+
+.instagram{
+    background: linear-gradient(
+    135deg,
+    #833AB4,
+    #C13594,
+    #E1306C,
+    #FD1D1D,
+    #FCAF45
+    );
+    color: white;
+    font-weight: bold;
+}
+
+.localizacao{
+    background: linear-gradient(135deg, #0074da, #005bb1);
+}
+
+.footer{
+    margin-top: auto;
+    color: #666666a9;
+}
