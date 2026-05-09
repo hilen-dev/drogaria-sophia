@@ -46,11 +46,11 @@ header{
 h1{
     font-size: 36px;
     font-weight: 550;
-    color: white;
+    color: var(--primary--);
 }
 
 .span-title{
-    color: #ff4f68;
+    color: var(--secondary--);
     font-weight: 600;
 }
 
